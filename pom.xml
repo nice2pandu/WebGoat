@@ -12,7 +12,12 @@
     <description>Parent Pom for the WebGoat Project. A deliberately insecure Web Application</description>
     <inceptionYear>2006</inceptionYear>
     <url>https://github.com/WebGoat/WebGoat</url>
-
+    <properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+                 <maven.compiler.target>1.8</maven.compiler.target>
+		<docker.image.prefix>kammana</docker.image.prefix>
+		<sonar.host.url>http://34.203.10.7:9000/</sonar.host.url>
+	</properties>
     <organization>
         <name>OWASP</name>
         <url>https://webgoat.github.io/</url>
